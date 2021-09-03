@@ -49,3 +49,12 @@
   font-size: 13px;
   font-weight: 800;
 }
+.header_optionBasket {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+.BasketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
