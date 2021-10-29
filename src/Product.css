@@ -35,3 +35,34 @@
   border-color: #a88734 #9c7e31 #846a29;
   color: #111;
 }
+.Pop_Up {
+  border: 1px solid;
+  position: relative;
+  margin: 10% 5% 10% 5%;
+  background-color: #131921;
+  color: white;
+  padding: 10px;
+}
+.Details_Info {
+  width: 80%;
+  margin: auto;
+}
+.Pop_Up button {
+  width: 50%;
+  margin-left: 25%;
+  background: #f0c14b;
+  border: 1px solid;
+  margin-top: 10px;
+  border-color: #a88734 #9c7e31 #846a29;
+  color: #111;
+}
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 500ms ease-in-out;
+}
+.ReactModal__Overlay--after-open{
+  opacity: 1;
+}
+.ReactModal__Overlay--before-close{
+  opacity: 0;
+}
